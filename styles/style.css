@@ -1,0 +1,41 @@
+/*Background */
+body
+{
+    background-image: url("../assets/images/SYNTHWAVE.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/*First lines of text */
+h1
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+/*Second Lines of text*/
+h2
+{
+    color: #fff;
+}
+/*Box that plays music */
+h4
+{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+/*Discord line bottom right */
+h5
+{
+    color: #fff;
+    font-size: 30px;
+    text-align: end;
+    text-align: right;
+}
+

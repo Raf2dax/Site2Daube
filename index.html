@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OeOeOe</title>
+    <link rel="icon" href="../assets/images/elgato.jpg">
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <link rel="stylesheet" href="../styles/music.css"/>
+    <link rel="stylesheet" href="../styles/minigame.css"/>
+    <link rel="stylesheet" href="../styles/quotes.css"/>
+
+
+</head>
+
+<body>
+    <h1>Ce site va être un canva pour mes futures test </h1>
+
+    <h2>Par exemple ce truc affiche des citations random (Avec une ptite aide de chat gpt pour le javascript)</h2>
+    
+    <h3><div class="container">
+        <h1>Citations aléatoires tah les fou</h1>
+        <p id="quoteDisplay">Cliquez sur le bouton pour afficher une citation.</p>
+        <button id="quoteButton">Another One</button>
+    </div>
+    </h3>
+
+    <h4>
+        Voici un ptit truc pour jouer de la musique :
+        <div class="player">
+            <audio id="audioPlayer"></audio>
+            <p id="trackTitle">Titre</p>
+            
+            <div class="controls">
+                <button id="prevBtn">Précédent</button>
+                <button id="playPauseBtn">Play</button>
+                <button id="nextBtn">Suivant</button>
+            </div>
+            
+            <div class="volume-control">
+                <label for="volumeSlider">Volume : </label>
+                <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="0.5">
+            </div>
+        </div>
+
+    </h4>
+        
+    <h5>Raf2dax sur Discord</h5>
+    <h6><a href="../pages/ptitJeu.html">Jeu Vidéal</a><br>
+        <a href="../pages/pokeApi.html">PokémonApi</a></h6>
+        <script src="scripts/rollCitation.js"></script>
+        <script src="scripts/playSong.js"></script>
+</body>

@@ -1,0 +1,35 @@
+.player {
+    text-align: center;
+}
+
+.controls, .volume-control {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+/*Title  of the song*/
+#trackTitle {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+input[type="range"] {
+    cursor: pointer;
+    width: 100px;
+}
+
+.volume-control {
+    color: #000000;
+}
+

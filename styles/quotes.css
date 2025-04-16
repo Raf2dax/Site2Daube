@@ -1,0 +1,36 @@
+/*Box that plays quotes */
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: #c35f73;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Quotes SHown */
+#quoteDisplay {
+    
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+/*Button That spawn quotes */
+#quoteButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/*Highlight the button when mouse is putted on */
+#quoteButton:hover {
+    background-color: #0056b3;
+}
